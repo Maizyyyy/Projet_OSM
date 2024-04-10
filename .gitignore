@@ -1,0 +1,34 @@
+# Ignorer les fichiers compilés
+*.o
+*.out
+*.exe
+
+# Ignorer les fichiers d'environnement
+.env
+
+# Ignorer les fichiers de dépendances et de build
+node_modules/
+bower_components/
+build/
+
+# Ignorer les fichiers de sauvegarde automatique des éditeurs
+*~
+
+# Ignorer les fichiers système Mac OS
+.DS_Store
+
+# Ignorer les fichiers log
+*.log
+
+# Ignorer les fichiers d'archive
+*.zip
+*.rar
+*.gz
+
+# Ignorer les fichiers de données volumineux
+traced_model.pt
+data/osm_point/merged_results.json
+yolov7-e6e.pt
+
+# Ignore les dossiers volumineux
+yolov7
